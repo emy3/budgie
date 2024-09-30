@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Welcome to Budgie!</h1>
+      <h1>🐦 Welcome to Budgie! ✅</h1>
         <Income />
         <Expense />
         <Totals />
