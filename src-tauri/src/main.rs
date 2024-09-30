@@ -14,10 +14,13 @@ static mut INCOMES: Vec
 // command to send data to frontend
 // income
 #[command]
+fn add_income
 // expense
 #[command]
+fn add_expense
 // total
 #[command]
+fn get_totals
 
 fn main() {
     tauri::Builder::default()
