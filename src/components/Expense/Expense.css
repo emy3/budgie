@@ -1,0 +1,17 @@
+/* Expense Container Styling */
+.expense-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    border-left: 5px solid #dc3545;
+  }
+  
+  /* Expense Text Color */
+  .expense-container p {
+    font-size: 1.2rem;
+    color: #dc3545;
+    margin: 5px 0;
+  }
+  
