@@ -1,4 +1,4 @@
-# 💰 Personal Finance Tracker
+# 🐦 Budgie | A Personal Finance Tracker App 💰
 
 ## 📖 Overview
 
