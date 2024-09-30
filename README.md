@@ -17,8 +17,8 @@ A user-friendly personal finance app designed to help you manage your budget, tr
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/emy3/budgie
+   cd budgie
 
 ## 🛠 Built With
 
@@ -38,4 +38,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📬 Contact
 
-For questions or feedback, reach out at your-email@example.com.
+For questions or feedback, reach out at emoceon@gmail.com
