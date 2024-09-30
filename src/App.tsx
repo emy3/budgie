@@ -4,7 +4,6 @@ import { Income } from './components/Income/Income';
 import { Expense } from './components/Expense/Expense';
 import { Totals } from "./components/Totals/Totals";
 
-
 function App() {
 
   return (
