@@ -20,6 +20,14 @@ A user-friendly personal finance app designed to help you manage your budget, tr
    git clone https://github.com/yourusername/your-repo.git
    cd your-repo
 
+## 🛠 Built With
+
+- **Tauri** 🦁: A framework for building lightweight, secure desktop applications using web technologies.
+- **React** ⚛️: A JavaScript library for building user interfaces, enabling efficient component-based architecture.
+- **TypeScript** 📜: A typed superset of JavaScript that improves developer productivity and code quality.
+- **Vite** ⚡: A modern build tool that provides a fast development environment and optimized builds.
+
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please create a pull request or open an issue for any improvements or suggestions.
