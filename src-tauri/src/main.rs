@@ -2,18 +2,27 @@ mod income;
 mod expense;
 mod totals;
 
-// Prevents additional console window on Windows in release, DO NOT REMOVE!!
-#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+// add uses
+use income::Income;
+use expense::Expense;
+use totals::Totals;
+use tauri::{command, Builder};
 
-// Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-#[tauri::command]
-fn greet(name: &str) -> String {
-    format!("Hello, {}! You've been greeted from Rust!", name)
-}
+// store the income and expenses
+static mut INCOMES: Vec
+
+// command to send data to frontend
+// income
+#[command]
+// expense
+#[command]
+// total
+#[command]
 
 fn main() {
     tauri::Builder::default()
-        .invoke_handler(tauri::generate_handler![greet])
+        .invoke_handler(tauri::generate_handler![
+            add_income, add_expense, get_totals])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
